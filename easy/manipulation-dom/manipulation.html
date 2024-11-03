@@ -1,0 +1,37 @@
+<!--pactising HTML form-->
+
+<!DOCTYPE html>
+<head> </head>
+<body>
+  <button id="btn">Test</button>
+  <form id="formTest">
+    <label for="nickname">nickname:</label>
+    <input type="text" id="nickname" name="nickname" value="kathie" /><br />
+    <label for="language">favorite programming language:</label>
+    <!--radion button option-->
+    <input type="radio" id="js" name="language" value="js" />
+    <label for="js">JS</label>
+    <input type="radio" id="c" name="language" value="c" />
+    <label for="c">c</label><br />
+
+    <label for="beginner">are you beginner</label>
+    <!--checkbox-->
+    <input
+      type="checkbox"
+      id="yes"
+      value="yes"
+    /><!-- ako nema label, nece biti ispisa-->
+    <label for="yes">Yes</label>
+
+    <input type="checkbox" id="no" value="no" />
+    <label for="no">No</label>
+
+    <input type="checkbox" id="depends" value="depends" />
+    <label for="depends">Depends</label><br />
+
+    <input type="button" value="don't click on me" id="btnSpec" /><br />
+    <input type="submit" value="Test it again, submit" />
+  </form>
+
+  <script src="script-manipulation.js"></script>
+</body>

@@ -74,26 +74,26 @@ console.log(arr.slice(1, 3));
 arr.forEach((num) => console.log("broj je:" + num));
 
 //map, kreira novi niz transformisanih elemenata
-console.log(arr.map((num) => num * 3));
+//console.log(arr.map((num) => num * 3));
 
 //ADVANCED - filtriranje i pretraga
 //filter, vratice niz elem koji ispune taj uslov
-console.log(arr.filter((num) => num > 2));
+//console.log(arr.filter((num) => num > 2));
 
 //find, pronadje prvi elem koji ispuni uslov
-console.log(arr.find((num) => num.toString().startsWith("1")));
+//console.log(arr.find((num) => num.toString().startsWith("1")));
 //findIndex, vraca indeks od provg elem koji zadvoolja uslov
-console.log(arr.findIndex((num) => num.toString().startsWith("1")));
+//console.log(arr.findIndex((num) => num.toString().startsWith("1")));
 
 //ADVANCED - provera i provera uslova
 //some, da li iko od elem ispunjava uslov, true/false
-console.log(arr.some((num) => num.toString().startsWith("1")));
+//console.log(arr.some((num) => num.toString().startsWith("1")));
 //every, da li svaki ispunjava uslov
-console.log(arr.every((num) => num.toString().startsWith("1")));
+//console.log(arr.every((num) => num.toString().startsWith("1")));
 
 //ADVANCED - reedukcija
 //reduce , agregira niz u 1 vrednost
-console.log(arr.reduce((sum, numCurr) => (sum += numCurr)));
+//console.log(arr.reduce((sum, numCurr) => (sum += numCurr)));
 
 //ADVANCED - pristupanje, pretraga,poredjenje
 //includes, proveri da li ima, true/f
@@ -102,18 +102,17 @@ console.log(arr.reduce((sum, numCurr) => (sum += numCurr)));
 
 //ADVANCED - prikaz i transf u string
 //join, spaja sve elem niza u string
-console.log(arr.join(","));
+//console.log(arr.join(","));
 
 //toString
 
 //ADVANCED - sortiranje i obrtanje
 //sort, po def rastuce, i promeni ga zauvek
-console.log(arr.sort());
+//console.log(arr.sort());
 
 //reverse
 
-console.log(arr.reverse());
+//console.log(arr.reverse());
 
-//ALGORITHMs
-//findMax
-console.log(arr.sort().pop());
+//////////////
+array.forEach((element) => {});
